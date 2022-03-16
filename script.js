@@ -17,11 +17,11 @@ function nextPage() {
     bg.style.backgroundSize = "cover";
     bg.style.backgroundPosition = "center";
     square01.style.background =
-        'url("https://i.ibb.co/Fq17crh/fondo-2-no-blur-1.png")';
+        'url("https://i.ibb.co/9wHhz9t/new-fondo-2-02-x512.png")';
     square02.style.background =
         'url("https://i.ibb.co/99pNPGy/fondo-2-no-blur-2.png")';
     square03.style.background =
-        'url("https://i.ibb.co/n10zt7F/fondo-2-no-blur-3.png")';
+        'url("https://i.ibb.co/R3SG20b/new-fondo-2-03-x512.png")';
     square01.style.backgroundRepeat = "no-repeat";
     square01.style.backgroundSize = "cover";
     square01.style.backgroundPosition = "center";

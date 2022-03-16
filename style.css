@@ -5,7 +5,7 @@
     --white-base: #F5F5F5;
     --grey-light: #C4C4C4;
     --gradient-base: linear-gradient(180deg, rgba(20, 20, 20, 0.98) 48.04%, rgba(51, 51, 52, 0.88) 119.69%);
-    --gradient-letter-home: linear-gradient(90deg, rgba(245, 245, 245, 0.5) 0%, rgba(245, 245, 245, 0) 81.56%);
+    --gradient-letter-home: linear-gradient(90deg, rgba(245, 245, 245, 0.5) 100%, rgba(245, 245, 245, 0) 81.56%);
     --navbar: rgba(51, 51, 52, 0.6);
     --triangle-base: rgba(142, 142, 148, 0.7);
     --opacity-number-superior: rgba(245, 245, 245, 0.4);
@@ -34,7 +34,7 @@ html {
 }
 
 header {
-    position: fixed;
+    position: relative;
     z-index: 10;
     top: 0;
     width: 100vw;
@@ -60,6 +60,7 @@ header {
 
 .nav__links {
     width: 100%;
+    display: none;
 }
 
 .nav__links.actived {
@@ -931,7 +932,7 @@ section {
 
 footer p {
     width: 100vw;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     background: black;
     color: white;
@@ -1246,11 +1247,14 @@ footer p a {
         margin-left: calc(50% - 160px);
         gap: 40px;
     }
+    footer p {
+        font-size: 2rem;
+    }
 }
 
 @media (min-width: 1600px) {
     .home__title h1 {
-        width: 40%;
+        width: 45%;
     }
 }
 
